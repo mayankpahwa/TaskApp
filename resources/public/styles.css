@@ -1,0 +1,156 @@
+body {
+font-family: arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b51212;
+}
+
+li {
+    font: 700 20px/20px "proxima-nova",sans-serif;
+    color: white;
+    display: inline;
+    text-align: center;
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px; 
+    text-decoration: none;
+    color: white;
+}
+
+li a{
+	display: inline-block;
+	font: 700 20px/20px "proxima-nova",sans-serif;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    margin:10px;
+    color: black;
+}
+
+select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email]{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password]{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date] {
+   width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    margin: 10px;
+    margin-left: 45%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 700 20px/20px "proxima-nova",sans-serif;
+}
+
+/*
+.updatebutton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 700 20px/20px "proxima-nova",sans-serif;
+    display: inline-block;
+}*/
